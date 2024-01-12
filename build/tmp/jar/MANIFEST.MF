@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: orestages
+Specification-Vendor: 
+Specification-Version: 1
+Implementation-Title: orestages
+Implementation-Version: 1.19.2-V0.2
+Implementation-Vendor: 
+Implementation-Timestamp: 2023-08-12T10:16:42+0300
+MixinConfigs: orestages.mixins.json
+

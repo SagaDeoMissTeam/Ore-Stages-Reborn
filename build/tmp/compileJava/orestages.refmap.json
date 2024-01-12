@@ -1,0 +1,58 @@
+{
+  "mappings": {
+    "net/sixik/orestages/mixin/chunk/MixinLinearPalette": {
+      "write": "Lnet/minecraft/world/level/chunk/LinearPalette;m_5678_(Lnet/minecraft/network/FriendlyByteBuf;)V"
+    },
+    "net/sixik/orestages/mixin/ExplosionDamageGeneratorMixin": {
+      "getBlockExplosionResistance": "Lnet/minecraft/world/level/ExplosionDamageCalculator;m_6617_(Lnet/minecraft/world/level/Explosion;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Ljava/util/Optional;"
+    },
+    "net/sixik/orestages/mixin/ServerPlayerGameModeMixin": {
+      "Lnet/minecraft/server/level/ServerLevel;getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;": "Lnet/minecraft/server/level/ServerLevel;m_8055_(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;",
+      "destroyBlock": "Lnet/minecraft/server/level/ServerPlayerGameMode;m_9280_(Lnet/minecraft/core/BlockPos;)Z",
+      "Lnet/minecraft/world/level/Level;getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;": "Lnet/minecraft/world/level/Level;m_8055_(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;",
+      "handleBlockBreakAction": "Lnet/minecraft/server/level/ServerPlayerGameMode;m_214168_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/network/protocol/game/ServerboundPlayerActionPacket$Action;Lnet/minecraft/core/Direction;II)V",
+      "useItemOn": "Lnet/minecraft/server/level/ServerPlayerGameMode;m_7179_(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;"
+    },
+    "net/sixik/orestages/mixin/network/MixinServerGamePacketListenerImpl": {
+      "send(Lnet/minecraft/network/protocol/Packet;Lnet/minecraft/network/PacketSendListener;)V": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_243119_(Lnet/minecraft/network/protocol/Packet;Lnet/minecraft/network/PacketSendListener;)V"
+    },
+    "net/sixik/orestages/mixin/chunk/MixinChunkMap": {
+      "playerLoadedChunk": "Lnet/minecraft/server/level/ChunkMap;m_183760_(Lnet/minecraft/server/level/ServerPlayer;Lorg/apache/commons/lang3/mutable/MutableObject;Lnet/minecraft/world/level/chunk/LevelChunk;)V"
+    },
+    "net/sixik/orestages/mixin/chunk/MixinHashMapPalette": {
+      "write": "Lnet/minecraft/world/level/chunk/HashMapPalette;m_5678_(Lnet/minecraft/network/FriendlyByteBuf;)V"
+    },
+    "net/sixik/orestages/mixin/chunk/MixinSingleValuePalette": {
+      "write": "Lnet/minecraft/world/level/chunk/SingleValuePalette;m_5678_(Lnet/minecraft/network/FriendlyByteBuf;)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "net/sixik/orestages/mixin/chunk/MixinLinearPalette": {
+        "write": "Lnet/minecraft/world/level/chunk/LinearPalette;m_5678_(Lnet/minecraft/network/FriendlyByteBuf;)V"
+      },
+      "net/sixik/orestages/mixin/ExplosionDamageGeneratorMixin": {
+        "getBlockExplosionResistance": "Lnet/minecraft/world/level/ExplosionDamageCalculator;m_6617_(Lnet/minecraft/world/level/Explosion;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Ljava/util/Optional;"
+      },
+      "net/sixik/orestages/mixin/ServerPlayerGameModeMixin": {
+        "Lnet/minecraft/server/level/ServerLevel;getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;": "Lnet/minecraft/server/level/ServerLevel;m_8055_(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;",
+        "destroyBlock": "Lnet/minecraft/server/level/ServerPlayerGameMode;m_9280_(Lnet/minecraft/core/BlockPos;)Z",
+        "Lnet/minecraft/world/level/Level;getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;": "Lnet/minecraft/world/level/Level;m_8055_(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;",
+        "handleBlockBreakAction": "Lnet/minecraft/server/level/ServerPlayerGameMode;m_214168_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/network/protocol/game/ServerboundPlayerActionPacket$Action;Lnet/minecraft/core/Direction;II)V",
+        "useItemOn": "Lnet/minecraft/server/level/ServerPlayerGameMode;m_7179_(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;"
+      },
+      "net/sixik/orestages/mixin/network/MixinServerGamePacketListenerImpl": {
+        "send(Lnet/minecraft/network/protocol/Packet;Lnet/minecraft/network/PacketSendListener;)V": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_243119_(Lnet/minecraft/network/protocol/Packet;Lnet/minecraft/network/PacketSendListener;)V"
+      },
+      "net/sixik/orestages/mixin/chunk/MixinChunkMap": {
+        "playerLoadedChunk": "Lnet/minecraft/server/level/ChunkMap;m_183760_(Lnet/minecraft/server/level/ServerPlayer;Lorg/apache/commons/lang3/mutable/MutableObject;Lnet/minecraft/world/level/chunk/LevelChunk;)V"
+      },
+      "net/sixik/orestages/mixin/chunk/MixinHashMapPalette": {
+        "write": "Lnet/minecraft/world/level/chunk/HashMapPalette;m_5678_(Lnet/minecraft/network/FriendlyByteBuf;)V"
+      },
+      "net/sixik/orestages/mixin/chunk/MixinSingleValuePalette": {
+        "write": "Lnet/minecraft/world/level/chunk/SingleValuePalette;m_5678_(Lnet/minecraft/network/FriendlyByteBuf;)V"
+      }
+    }
+  }
+}

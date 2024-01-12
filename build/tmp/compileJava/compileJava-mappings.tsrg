@@ -1,0 +1,12 @@
+net/sixik/orestages/mixin/chunk/MixinHashMapPalette values f_62658_
+net/sixik/orestages/mixin/chunk/MixinLinearPalette values f_63026_
+net/sixik/orestages/mixin/chunk/MixinLinearPalette size f_63030_
+net/sixik/orestages/mixin/chunk/MixinSingleValuePalette value f_188204_
+net/sixik/orestages/mixin/network/MixinClientboundBlockUpdatePacket blockState f_131732_
+net/sixik/orestages/mixin/network/MixinClientboundBlockUpdatePacket pos f_131731_
+net/sixik/orestages/mixin/network/MixinClientboundSectionBlocksUpdatePacket states f_132982_
+net/sixik/orestages/mixin/network/MixinClientboundSectionBlocksUpdatePacket sectionPos f_132980_
+net/sixik/orestages/mixin/network/MixinClientboundSectionBlocksUpdatePacket positions f_132981_
+net/sixik/orestages/mixin/network/MixinServerGamePacketListenerImpl player f_9743_
+net/sixik/orestages/mixin/ServerPlayerGameModeMixin player f_9245_
+net/sixik/orestages/mixin/chunk/MixinHashMapPalette getSize ()I m_62680_

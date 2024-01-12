@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.sixik.orestages.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "orestages.refmap.json",
+  "mixins": [
+    "ExplosionDamageGeneratorMixin",
+    "ServerPlayerGameModeMixin",
+    "chunk.MixinChunkMap",
+    "chunk.MixinHashMapPalette",
+    "chunk.MixinLinearPalette",
+    "chunk.MixinSingleValuePalette",
+    "network.MixinClientboundBlockUpdatePacket",
+    "network.MixinClientboundSectionBlocksUpdatePacket",
+    "network.MixinServerGamePacketListenerImpl"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
